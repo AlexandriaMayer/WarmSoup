@@ -1,8 +1,46 @@
 header{
     height: 200px;
+    width: 100%;
     clear:both;
-    background-color: rgb(202, 235, 224);
+    background-color: rgb(111, 243, 221);
     color:rgb(14, 34, 25)
+}
+
+header > nav {
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(70, 93, 89);
+    padding: 0px 24px;
+}
+header > nav > ul{
+    justify-content: flex-start;
+    
+}
+header > nav > ul > li{
+    justify-content: flex-start;
+    list-style: none;
+}
+header > nav > ul > li > a {
+    padding: 0px 16px;
+    text-decoration: none;
+}
+header > nav > ul > li > ul {
+    display: none;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+header > nav > ul > li > ul li{
+    height: 24px;
+    border-radius: 0px 0px 6px 6px;
+}
+header > nav > ul > li > ul li a {
+    padding: 8px 20px;
+}
+header > nav > ul > li > ul li a:hover {
+    background-color: rgb(60, 80, 76);
+    color: rgb(215, 250, 245);
 }
 
 @media screen {
