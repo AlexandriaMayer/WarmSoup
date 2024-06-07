@@ -42,6 +42,13 @@ header > nav > ul > li > ul li a:hover {
     background-color: rgb(60, 80, 76);
     color: rgb(215, 250, 245);
 }
+footer ul li{
+    display: none;
+    flex-direction: row;
+    justify-items: flex-start;
+    height:30px;
+    padding: 12px 12px;
+}
 
 @media screen {
     
