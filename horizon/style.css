@@ -31,11 +31,11 @@ header > nav > ul > li > ul {
     flex-direction: row;
     justify-items: flex-start;
 }
-header > nav > ul > li > ul li{
+header > nav > ul > li > ul > li{
     height: 24px;
     border-radius: 0px 0px 6px 6px;
 }
-header > nav > ul > li > ul li a {
+header > nav > ul > li > ul > li > a {
     padding: 8px 20px;
 }
 header > nav > ul > li > ul li a:hover {
