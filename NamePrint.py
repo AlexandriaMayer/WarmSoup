@@ -18,3 +18,9 @@ print(fi+mi+li+" "* 100)
 # this is printing out the first inital, but returns the full name of the other string.
 # Maybe I should split the string by spaces.
 # I think I'm discovering why every last name form asks for seperate first middle, and last names.
+
+def insert():
+  if f_name == 'Alexandria'
+  print('My name is Alexandria')
+  else:
+  pass
