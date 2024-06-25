@@ -1,3 +1,15 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
 header{
     height: 200px;
     width: 100%;
@@ -21,6 +33,7 @@ header > nav > ul{
 header > nav > ul > li{
     justify-content: flex-start;
     list-style: none;
+    width: 10%;
 }
 header > nav > ul > li > a {
     padding: 0px 16px;
