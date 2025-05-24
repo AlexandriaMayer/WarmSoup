@@ -9,7 +9,7 @@ response = requests.get(url)
 
 soup = BeautifulSoup(response.text, 'html.parser')
 
-
+#pain
 
 table = soup.find('table', attrs = {'class':'r1r2 pop-table pop-table-m'})
 table_rows = table.find_all('tr')
